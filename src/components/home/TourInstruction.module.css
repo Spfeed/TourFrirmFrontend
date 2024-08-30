@@ -1,0 +1,293 @@
+.container {
+  margin-top: 150px;
+  width: 100%;
+  margin-left: 230px;
+}
+
+.easy-and-fast {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.plan-trip {
+  margin-top: 20px;
+  font-family: "Vollkorn", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+}
+
+.steps-container {
+  margin-top: 20px;
+  display: grid;
+  row-gap: 48px;
+}
+
+.step-container {
+  display: flex;
+  column-gap: 21px;
+}
+
+.map-rect {
+  border-radius: 13px;
+  height: 47px;
+  width: 47px;
+  background-color: #f0bb1f;
+}
+
+.map-img {
+  width: 22px;
+  height: 22px;
+  margin: 13px 13px 13px 13px;
+}
+
+.point {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #5e6282;
+}
+
+.text-under-point {
+  margin-top: 4px;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #5e6282;
+}
+
+.notice-button {
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+.notice-button:hover {
+  color: #006380;
+}
+
+.contact-rect {
+  border-radius: 13px;
+  height: 47px;
+  width: 47px;
+  background-color: #f15a2b;
+}
+
+.contact-img {
+  width: 22px;
+  height: 22px;
+  margin: 13px 13px 13px 13px;
+}
+
+.bag-rect {
+  border-radius: 13px;
+  height: 47px;
+  width: 47px;
+  background-color: #006380;
+}
+
+.bag-img {
+  width: 22px;
+  height: 22px;
+  margin: 13px 13px 13px 13px;
+}
+
+.card-container {
+  display: flex;
+  margin-top: 230px;
+  margin-right: 145px;
+  position: relative; /* Add this line */
+}
+
+.card-rect {
+  border-radius: 26px;
+  width: 370px;
+  height: 400px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0), 0 8px 7px 0 rgba(0, 0, 0, 0.01),
+    0 20px 13px 0 rgba(0, 0, 0, 0.01), 0 39px 25px 0 rgba(0, 0, 0, 0.01),
+    0 65px 47px 0 rgba(0, 0, 0, 0.02), 0 100px 80px 0 rgba(0, 0, 0, 0.02);
+  background: #fff;
+  margin-right: 40px;
+  z-index: 1;
+}
+
+.card-blur {
+  position: absolute;
+  top: -50px; /* Adjust the position as needed */
+  right: -15px; /* Adjust the position as needed */
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  background-color: rgba(197, 124, 240, 0.8); /* Adjust the color as needed */
+  border-radius: 50%;
+  filter: blur(150px); /* Adjust the blur radius as needed */
+  z-index: 0; /* Ensure the circle is behind the card */
+}
+
+.card-content {
+  margin: 20px 25px 0 24px;
+  display: grid;
+  row-gap: 36px;
+}
+
+.card-img {
+  border-radius: 24px;
+  width: 321px;
+  height: 161px;
+}
+
+.card-text-block {
+  font-family: "Commissioner", sans-serif;
+}
+
+.tour-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  color: #080809;
+}
+
+.tour-dates {
+  margin-top: 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.01em;
+  color: #84829a;
+}
+
+.tour-icons {
+  margin-top: 13px;
+  display: flex;
+  column-gap: 14px;
+}
+
+.tour-icon-rect {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+}
+
+.tour-icon-rect img {
+  width: 20px;
+  height: 20px;
+  margin: 7px 7px 7px 8px;
+}
+
+.tour-footer {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 12px;
+}
+
+.tour-footer p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #84829a;
+}
+
+.tour-footer img {
+  width: 16px;
+  height: 16px;
+}
+
+.micro-card {
+  position: absolute;
+  z-index: 2;
+  border-radius: 18px;
+  width: 263px;
+  height: 129px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0), 0 8px 7px 0 rgba(0, 0, 0, 0.01),
+    0 20px 13px 0 rgba(0, 0, 0, 0.01), 0 39px 25px 0 rgba(0, 0, 0, 0.01),
+    0 65px 47px 0 rgba(0, 0, 0, 0.02), 0 100px 80px 0 rgba(0, 0, 0, 0.02);
+  background: #fff;
+  top: 200px;
+  right: -30px;
+}
+
+.micro-card p {
+  margin-bottom: 0;
+}
+
+.micro-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.micro-card-content {
+  margin: 8px 25px 22px 20px;
+  display: flex;
+  column-gap: 12px;
+}
+
+.micro-card-text-later {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: -0.04em;
+  color: #84829a;
+}
+
+.micro-card-text-name {
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: -0.01em;
+  color: #080809;
+}
+
+.micro-card-load-text {
+  margin-top: 14px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.micro-card-load-ready {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: -0.06em;
+  color: #080809;
+}
+
+.micro-card-percent {
+  color: #8a79df;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+}
+
+.micro-card-load {
+  display: flex;
+  margin-top: 15px;
+}
+
+.micro-card-load-empty {
+  width: 156px;
+  height: 5px;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+}
+
+.micro-card-load-full {
+  position: absolute;
+  z-index: 3;
+  border-radius: 30px;
+  width: 73px;
+  height: 5px;
+  background-color: #8a79df;
+}
+
+.text-card {
+  display: flex;
+}

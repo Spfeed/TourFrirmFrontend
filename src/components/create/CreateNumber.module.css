@@ -1,0 +1,78 @@
+.createNumberContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.createNumberForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.createNumberFormGroup {
+  margin-bottom: 20px;
+}
+
+.createNumberFormGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.createNumberInputField,
+.createNumberTextareaField,
+.createNumberInputField[type="file"],
+.createNumberInputField select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.createNumberTextareaField {
+  height: 100px;
+  resize: vertical;
+}
+
+.createNumberError {
+  margin-top: 5px;
+  color: #d9534f;
+  font-size: 0.875rem;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submitButton:not(:disabled):hover {
+  background-color: #4cae4c;
+}
+
+.createNumberHomeLink {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.createNumberHomeLink:hover {
+  text-decoration: underline;
+}

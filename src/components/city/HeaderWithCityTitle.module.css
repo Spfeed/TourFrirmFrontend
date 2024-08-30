@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+}
+
+.header-background {
+  background: rgb(29, 68, 145);
+}
+
+.title-container {
+  margin: 100px 100px 100px 160px;
+}
+
+.title-container p {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.title-container h1 {
+  font-family: "Vollkorn", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+}

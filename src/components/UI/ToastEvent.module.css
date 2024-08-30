@@ -1,0 +1,8 @@
+.toast-cont {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px; /* Отступ от правого и нижнего края экрана */
+  z-index: 1003; /* Убедитесь, что ваш компонент находится выше других элементов */
+  overflow: hidden;
+}

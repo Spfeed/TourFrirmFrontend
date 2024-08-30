@@ -1,0 +1,45 @@
+.flexable {
+  display: flex;
+}
+
+.content {
+  margin: 17px 0 16px 16px;
+}
+
+.header {
+  color: #030303;
+  font-size: 24px;
+  font-family: "Commissioner";
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.header-history {
+  color: #030303;
+  font-size: 24px;
+  font-family: "Commissioner";
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 33px;
+}
+
+.history-conatiner {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 18px;
+}
+
+.header-bids {
+  margin-top: 33px;
+  color: #030303;
+  font-size: 24px;
+  font-family: "Commissioner";
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.bids-container {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 18px;
+}

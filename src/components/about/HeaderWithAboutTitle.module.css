@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+}
+
+.header-background {
+  background: rgb(29, 68, 145);
+}
+
+.about-title {
+  margin: 81px 160px 93px 160px;
+  font-size: 50px;
+  font-family: "Vollkorn";
+  font-weight: 500;
+  line-height: 65px;
+}

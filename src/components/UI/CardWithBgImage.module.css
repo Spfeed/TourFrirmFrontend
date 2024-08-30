@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  margin: 64px 126px 0 160px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 26px;
+}
+
+.container-image {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+}
+
+.container-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.78;
+  background-color: rgba(69, 67, 68, 0.66);
+  border-radius: 26px;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding: 20px;
+  color: white;
+  font-size: 32px;
+  font-family: "Vollkorn";
+  font-weight: 500;
+}

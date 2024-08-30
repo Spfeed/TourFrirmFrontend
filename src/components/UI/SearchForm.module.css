@@ -1,0 +1,170 @@
+.form-button-inline {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+  border-radius: 0 50px 50px 50px;
+  width: 1180px;
+  height: 274px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  background: rgb(240, 238, 238);
+}
+
+.form-container {
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  /* padding-bottom: 60px; */
+  padding-top: 50px;
+  padding-left: 48px;
+}
+
+.from-where-rect {
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  border-radius: 25px;
+  height: 77px;
+  background-color: white;
+}
+
+.from-where-content {
+  display: flex;
+  column-gap: 18px;
+  padding-left: 22px;
+  padding-top: 12px;
+  padding-right: 10px;
+}
+
+.from-where-content img {
+  width: 26px;
+  height: 24px;
+}
+
+.from-where-content label {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(142, 142, 142);
+}
+
+.from-where-content select {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  padding-right: 10px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.from-where-content option {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.from-where-content option:hover {
+  background-color: rgba(62, 134, 245, 0.8);
+  color: white;
+}
+
+.date-days-rect {
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  border-radius: 25px;
+  width: 300px;
+  height: 77px;
+  background-color: white;
+}
+
+.date-days-content {
+  display: grid;
+  row-gap: 10px;
+  padding-left: 22px;
+  padding-top: 10px;
+}
+
+.date-days-content label {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.date-content input {
+  width: 120px;
+  margin-left: 15px;
+}
+
+.days-content input {
+  margin-left: 15px;
+  width: 30px;
+}
+
+.form-first-row {
+  display: grid;
+}
+
+/* .form-row input {
+  width: 30px;
+} */
+
+.adults-chilren-rect {
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  border-radius: 25px;
+  width: 300px;
+  height: 77px;
+  background-color: white;
+  margin-left: 165px;
+}
+
+.adults-children-content {
+  margin: 10px 0 10px 30px;
+  display: grid;
+  row-gap: 10px;
+}
+
+.adults-children-content label {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.adults-content input {
+  width: 30px;
+  margin-left: 15px;
+}
+
+.children-content input {
+  width: 30px;
+  margin-left: 48px;
+}
+
+.search-rectangle {
+  margin: 60px 48px 60px 0;
+  border-radius: 65px;
+  width: 154px;
+  height: 154px;
+  background: rgba(62, 134, 245, 0.8);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.search-rectangle:hover {
+  background-color: rgba(162, 194, 241, 0.8);
+}
+
+.search-rectangle img {
+  width: 50px;
+  height: 55px;
+  margin: 50px 52px 49px 52px;
+}

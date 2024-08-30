@@ -1,0 +1,42 @@
+.custom-dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  color: rgb(254, 254, 254) !important;
+  padding: 0 !important;
+  font-size: 24px !important;
+  font-family: "Commissioner", sans-serif !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: color 0.2s ease-in-out !important;
+}
+
+.custom-dropdown-toggle::after {
+  display: none !important; /* Убираем стрелку */
+}
+
+.custom-dropdown-toggle:hover {
+  color: #f0ba57 !important; /* Цвет текста при наведении */
+  background-color: transparent !important;
+}
+
+.custom-dropdown-menu {
+  background-color: #f1f1f1 !important; /* Светло-серый фон */
+  border-radius: 4px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  margin-top: 5px !important; /* Расстояние от кнопки */
+}
+
+.custom-dropdown-item {
+  color: #333 !important; /* Темно-серый цвет текста */
+  padding: 10px 20px !important;
+}
+
+.nav-link {
+  color: #333 !important; /* Темно-серый цвет текста */
+  padding: 10px 20px !important;
+}
+
+.custom-dropdown-item:hover {
+  background-color: #ddd !important; /* Светло-серый фон при наведении */
+}

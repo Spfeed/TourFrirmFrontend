@@ -1,0 +1,19 @@
+.offers {
+  margin-top: 380px;
+  width: 100%;
+  text-align: center;
+}
+
+.offers-text {
+  font-family: "Vollkorn", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #14183e;
+}
+
+.carts {
+  margin-top: 80px;
+  display: flex;
+  column-gap: 60px;
+  margin-left: 230px;
+}

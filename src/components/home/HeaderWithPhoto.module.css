@@ -1,0 +1,119 @@
+.photo-container {
+  position: relative;
+  width: 100%;
+  height: 952px;
+}
+
+.background-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Чтобы фото занимало всю площадь контейнера */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-overlay {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.text-overlay {
+  position: absolute;
+  width: 100%;
+  height: 353px;
+  padding-top: 350px;
+}
+
+.text-overlay h1 {
+  text-align: center;
+  color: white;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  padding: 0 310px 40px 310px;
+  text-shadow: 1px 1px rgb(201, 201, 201);
+}
+
+.text-overlay p {
+  text-align: center;
+  color: white;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  padding: 0 328px 0 328px;
+}
+
+.fake-buttons-overlay {
+  position: absolute;
+  padding: 803px 130px 0 130px;
+}
+
+.fake-buttons-rectangle {
+  border-radius: 25px 25px 0 0;
+  width: 279px;
+  height: 100px;
+  background: rgb(240, 238, 238);
+  display: flex;
+  column-gap: 17px;
+}
+
+.fake-buttons-search-rectangle {
+  margin: 15px 0 10px 10px;
+  border-radius: 25px;
+  width: 121px;
+  height: 66px;
+  background: rgba(62, 134, 245, 0.2);
+  display: flex;
+}
+
+.fake-buttons-search {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  column-gap: 7px;
+}
+
+.fake-buttons-search img {
+  width: 25px;
+  height: 25px;
+}
+
+.fake-buttons-search p {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.fake-buttons-create {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  padding-right: 20px;
+}
+
+.fake-buttons-create img {
+  width: 25px;
+  height: 25px;
+}
+.create-text {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.create-text:hover {
+  color: white;
+}
+
+.form-overlay {
+  position: absolute;
+  padding: 903px 130px 0 130px;
+}

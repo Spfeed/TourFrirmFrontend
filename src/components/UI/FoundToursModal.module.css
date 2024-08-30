@@ -1,0 +1,83 @@
+.loading-spinner {
+  margin: 10% 45%;
+  width: 100px;
+  height: 100px;
+}
+
+.header-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Vollkorn";
+  line-height: 42px;
+  padding: 39px 0px 20px 37px;
+}
+
+.modal-content {
+  display: flex;
+}
+
+.left-panel {
+  margin-left: 37px;
+  margin-right: 30px;
+}
+
+.dropdown {
+  margin-top: 30px;
+  cursor: pointer;
+  width: 208px;
+  height: 39px;
+  padding: 0px 8px;
+  border: 1px solid #2f1f7c;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Commissioner";
+  line-height: 23px;
+  outline: none;
+}
+
+.food-type h1 {
+  color: #000000;
+  font-size: 24px;
+  font-family: "Commissioner";
+  line-height: 31px;
+  margin-top: 57px;
+}
+
+.checkboxes-with-text {
+  margin: 19px 7px 0px 0px;
+}
+
+.checkbox-with-text {
+  display: flex;
+  column-gap: 26px;
+}
+
+.input-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox-with-text p {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Commissioner";
+  line-height: 23px;
+}
+
+.devider {
+  top: 495px;
+  left: 470px;
+  width: 4px;
+  height: 1298px;
+  background-color: #c2c2c2;
+  border-radius: 2px;
+}
+
+.founded-tours {
+  margin: 37px 51px 0px 45px;
+  width: 100%;
+}

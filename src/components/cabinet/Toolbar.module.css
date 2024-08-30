@@ -1,0 +1,92 @@
+.container {
+  top: 64px;
+  left: 0px;
+  width: 288px;
+  min-height: 1286px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+}
+
+.content {
+  margin: 18px 106px 0 16px;
+}
+
+.navlink {
+  color: #030303;
+  font-size: 16px;
+  font-family: "Commissioner";
+  font-weight: 400;
+  line-height: 19px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.navlink:hover {
+  color: #ccc44f;
+}
+
+.row-home {
+  display: flex;
+  column-gap: 8px;
+}
+
+.home-icon {
+  width: 18px;
+  height: 16px;
+}
+
+.row-history {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 24px;
+}
+
+.history-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.row-bid {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 24px;
+}
+
+.bid-icon {
+  width: 18px;
+  height: 16px;
+}
+
+.row-chat {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 24px;
+}
+
+.chat-icon {
+  width: 20px;
+  height: 16px;
+}
+
+.row-edit {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 24px;
+}
+
+.edit-icon {
+  width: 19px;
+  height: 19px;
+}
+
+.row-users {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 24px;
+}
+
+.users-icon {
+  width: 20px;
+  height: 21px;
+}

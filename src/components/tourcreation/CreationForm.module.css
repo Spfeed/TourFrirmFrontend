@@ -1,0 +1,241 @@
+.container {
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+  margin: 88px 60px 0px 60px;
+}
+
+.content {
+  margin: 86px 0px 70px 200px;
+  display: grid;
+  row-gap: 25px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.label-text {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Commissioner";
+  line-height: 23px;
+}
+
+.input-with-from {
+  display: grid;
+}
+
+.input-dropdown {
+  width: 208px;
+  height: 43px;
+  padding: 0px 8px;
+  border: 1px solid #505050;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #8e8a8a;
+  font-size: 14px;
+  font-family: "Commissioner";
+  line-height: 24px;
+  outline: none;
+}
+
+.input-with-country {
+  display: grid;
+  margin-left: 181px;
+}
+
+.input-with-to {
+  display: grid;
+  margin-left: 104px;
+}
+
+.input-with-adults {
+  display: grid;
+  margin-top: 43px;
+}
+
+.adults-input {
+  width: 200px;
+  height: 40px;
+  padding: 0px 8px;
+  border: 1px solid #505050;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-family: "Commissioner";
+  line-height: 24px;
+  outline: none;
+}
+
+.input-with-children {
+  display: grid;
+  margin-left: 62px;
+  margin-top: 43px;
+}
+
+.children-input {
+  width: 152px;
+  height: 40px;
+  padding: 0px 8px;
+  border: 1px solid #505050;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-family: "Commissioner";
+  line-height: 24px;
+  outline: none;
+}
+
+.input-with-hotel {
+  display: grid;
+  margin-top: 43px;
+  margin-left: 279px;
+}
+
+.food-type {
+  margin-top: 20px;
+}
+
+.radio-rows {
+  display: grid;
+  row-gap: 18px;
+}
+
+.radio-row {
+  display: flex;
+}
+
+.label-text-radio {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Commissioner";
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio {
+  display: none;
+}
+
+.custom-radio {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #1d4491;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 8px;
+  transition: background-color 0.3s;
+}
+
+.radio:checked + .label-text-radio .custom-radio {
+  background-color: #1d4491;
+}
+
+.description-container {
+  margin-top: 20px;
+  margin-left: 89px;
+  display: grid;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.textarea-whishes {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  border: 1px solid #505050;
+  box-sizing: border-box;
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Commissioner";
+  line-height: 24px;
+  outline: none;
+  resize: vertical;
+}
+
+.textarea-whishes::placeholder {
+  color: #8e8a8a;
+  font-family: "Commissioner";
+}
+
+.date-duration-container {
+  margin-top: 20px;
+  margin-left: 160px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+}
+
+.date-duration-content {
+  margin: 20px 13px 20px 32px;
+  display: grid;
+  row-gap: 49px;
+}
+
+.date-content {
+  display: grid;
+}
+
+.date-input {
+  width: 149px;
+  height: 36px;
+  padding: 0px 8px;
+  border: 1px solid #505050;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  font-family: "Commissioner";
+  line-height: 24px;
+  outline: none;
+}
+
+.input-with-number {
+  display: grid;
+}
+
+.duration-content {
+  display: grid;
+}
+
+.create-button {
+  cursor: pointer;
+  margin: 40px 30%;
+  width: 364px;
+  height: 60px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
+  background-color: #1d4491;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Commissioner";
+  line-height: 31px;
+  outline: none;
+  transition: 0.4s ease-in-out;
+}
+
+.create-button:hover {
+  background-color: #8b8b8d;
+  color: #000000;
+}

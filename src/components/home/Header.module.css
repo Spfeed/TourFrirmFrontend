@@ -1,0 +1,104 @@
+.header {
+  padding: 24px 130px 30px 24px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header__row {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__row h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: white;
+}
+
+.header__nav {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.header__nav ul {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+}
+
+.header__nav a {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #f0ba57;
+}
+
+.header__nav-btn {
+  /* padding: 14px 44px 15px 44px; */
+  border-radius: 10px;
+  width: 141px;
+  height: 65px;
+  background-color: white;
+  color: #3e86f5;
+  font-family: "Commissioner";
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+}
+
+.header__nav-btn:hover {
+  background-color: #3e86f5;
+  color: white;
+}
+
+.cabinet-container {
+  border-radius: 10px;
+  min-width: 141px;
+  height: 65px;
+  background-color: #3e86f5;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  column-gap: 6px;
+  padding: 10px 6px 15px 6px;
+}
+
+.cabinet-text {
+  font-family: "Commissioner";
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.cabinet-container:hover {
+  background-color: #b3caed;
+}
+
+.cabinet-text:hover {
+  color: #3e86f5;
+}
+
+.cabinet-icon {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.cabinet-icon:hover {
+  color: #3e86f5;
+}

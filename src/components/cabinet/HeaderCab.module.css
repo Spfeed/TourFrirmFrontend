@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  height: 64px;
+  background-color: #1d4491;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  margin: 17px 0 18px 16px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Commissioner";
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.right-side {
+  margin-right: 16px;
+  display: flex;
+}
+
+.right-text {
+  margin: 24px 22px 18px 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Commissioner";
+  font-weight: 400;
+  line-height: 19px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.right-text:hover {
+  color: #ccc44f;
+}
+
+.divide {
+  width: 2px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.right-button {
+  margin: 24px 0 18px 23px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Commissioner";
+  font-weight: 400;
+  line-height: 19px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.right-button:hover {
+  color: #e06055;
+}

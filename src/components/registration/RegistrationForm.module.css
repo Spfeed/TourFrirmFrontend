@@ -1,0 +1,166 @@
+.form-container {
+  margin: 81px 160px 0px 160px;
+  background-color: white;
+  border-radius: 26px;
+  opacity: 72%;
+  padding: 30px 50px 20px 50px;
+}
+
+.form-container h1 {
+  font-family: "Vollkorn";
+  opacity: 100%;
+  color: black;
+}
+
+.form-content {
+  margin-top: 30px;
+}
+
+.form-row {
+  display: flex;
+  column-gap: 60px;
+  margin-bottom: 30px;
+}
+
+.form-row label {
+  font-family: "Commissioner";
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-row input {
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 500;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Добавляет обводку */
+  border-radius: 4px;
+  background-color: white; /* Устанавливает фон белым */
+  opacity: 1;
+}
+
+.form-row input:focus {
+  outline: none;
+  border-color: #007bff; /* Меняет цвет обводки при фокусе */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Добавляет тень при фокусе */
+}
+
+.form-item {
+  display: grid;
+}
+
+.form-item input {
+  width: 300px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  flex: 1;
+}
+
+.toggle-button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox-button {
+  display: flex;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+.custom-checkbox .checkmark {
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-checkbox .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 1px;
+  width: 8px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked + .checkmark {
+  background-color: #4c56af;
+  border-color: #4c56af;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  display: block;
+}
+
+.custom-checkbox .label-text {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.submit-button {
+  margin-left: 5%;
+  background-color: rgb(1, 72, 25);
+  border-radius: 10px;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  opacity: 100%;
+  font-size: 24px;
+  transition: 0.5s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: rgb(141, 141, 141);
+  color: rgb(1, 72, 25);
+}
+
+.submit-button:disabled {
+  background-color: rgb(141, 141, 141);
+  color: rgb(255, 255, 255);
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.toggle-password img {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}

@@ -1,0 +1,189 @@
+.container {
+  margin: 80px 160px 0px 160px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+}
+
+.header-text {
+  width: 100%;
+  background-color: #a61f1f;
+  border-radius: 24px 24px 0px 0px;
+  min-height: 100px;
+  padding: 29px 0px 29px 34px;
+}
+
+.header-text-content {
+  display: flex;
+}
+
+.header-text-content h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Commissioner";
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.header-text-content img {
+  width: 40px;
+  height: 40px;
+}
+
+.header-text-content p {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Commissioner";
+  line-height: 31px;
+  margin-top: 11px;
+}
+
+.takeof {
+  margin-left: 9px;
+}
+
+.date {
+  margin-left: 20px;
+}
+
+.land {
+  margin-left: 20px;
+}
+
+.destination {
+  margin-left: 20px;
+}
+
+.duration {
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+.tourists-count {
+  margin-left: 50px;
+}
+
+.hotel-info-container {
+  margin: 20px 67px 0px 67px;
+}
+
+.hotel-name-rating {
+  display: flex;
+  column-gap: 10px;
+}
+
+.star-icon {
+  margin-top: 11px;
+  width: 49px;
+  height: 48px;
+}
+
+.hotel-name-rating h1 {
+  color: #000000;
+  font-size: 48px;
+  font-family: "Vollkorn";
+  line-height: 62px;
+}
+
+.number-foodtype {
+  display: flex;
+  column-gap: 82px;
+  margin-top: 5px;
+}
+
+.number-foodtype p {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Vollkorn";
+  line-height: 42px;
+}
+
+.number {
+  display: flex;
+  column-gap: 12px;
+}
+
+.number img {
+  width: 40px;
+  height: 40px;
+}
+
+.foodtype {
+  display: flex;
+  column-gap: 12px;
+}
+
+.foodtype img {
+  width: 40px;
+  height: 40px;
+}
+
+.hotel-details {
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+}
+
+.tour-services {
+  margin-top: 33px;
+}
+
+.tour-servies-header {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Vollkorn";
+  line-height: 52px;
+}
+
+.services-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+}
+
+.services-content {
+  margin: 20px 30px 0px 30px;
+}
+
+.service {
+  display: flex;
+  column-gap: 10px;
+}
+
+.service p {
+  font-family: "Commissioner";
+  font-size: 20px;
+  color: #000000;
+}
+
+.round {
+  border-radius: 50%;
+  background-color: #c2c2c2;
+  width: 20px;
+  height: 20px;
+}
+
+.book-button {
+  margin: 20px 420px 20px 420px;
+  cursor: pointer;
+  width: 295px;
+  height: 66px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
+  background-color: #a61f1f;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Commissioner";
+  line-height: 42px;
+  outline: none;
+  transition: 0.4s ease-in-out;
+}
+
+.book-button:hover {
+  background-color: #838383;
+  color: #000000;
+}

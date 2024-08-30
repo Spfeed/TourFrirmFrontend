@@ -1,0 +1,19 @@
+.custom-carousel-container {
+  margin: 20px 67px 0px 67px;
+}
+
+.custom-carousel {
+  height: 471px !important;
+  border-radius: 26px;
+}
+
+.custom-carousel-item {
+  height: 471px !important;
+  border-radius: 26px;
+}
+
+.custom-carousel-item img {
+  border-radius: 26px;
+  height: 471px;
+  width: 100%;
+}

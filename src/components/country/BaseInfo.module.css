@@ -1,0 +1,104 @@
+.container {
+  margin: 84px 126px 0px 160px;
+}
+
+.header p {
+  color: #6f6f79;
+  font-size: 18px;
+  font-family: "Vollkorn";
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.header h1 {
+  margin-top: 20px;
+  color: #0b1030;
+  font-size: 50px;
+  font-family: "Vollkorn";
+  font-weight: 700;
+  line-height: 67px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-row {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 20px;
+}
+
+.content-row p {
+  color: #868686;
+  font-size: 24px;
+  font-family: "Commissioner";
+  line-height: 31px;
+  margin-top: 10px;
+}
+
+.content-icon-visa {
+  width: 60px;
+  height: 60px;
+  background-color: #060f9f;
+  border-radius: 26px;
+  padding: 10px 10px 10px 10px;
+}
+
+.content-icon-visa img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-icon-lang {
+  width: 60px;
+  height: 60px;
+  background-color: #f75959;
+  border-radius: 26px;
+  padding: 10px 10px 10px 10px;
+}
+
+.content-icon-lang img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-icon-cur {
+  width: 60px;
+  height: 60px;
+  background-color: #378654;
+  border-radius: 26px;
+  padding: 10px 10px 10px 10px;
+}
+
+.content-icon-cur img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-icon-time {
+  width: 60px;
+  height: 60px;
+  background-color: #ed8bef;
+  border-radius: 26px;
+  padding: 10px 10px 10px 10px;
+}
+
+.content-icon-time img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-icon-religion {
+  width: 60px;
+  height: 60px;
+  background-color: #f7e794;
+  border-radius: 26px;
+  padding: 10px 10px 10px 10px;
+}
+
+.content-icon-religion img {
+  max-width: 100%;
+  max-height: 100%;
+}

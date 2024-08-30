@@ -1,0 +1,57 @@
+.container {
+  margin: 0px 160px 0px 160px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+  padding: 50px 101px 49px 67px;
+}
+
+.container h1 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Vollkorn";
+  line-height: 42px;
+}
+
+.content {
+  display: flex;
+  column-gap: 283px;
+}
+
+.content h2 {
+  color: #000000;
+  font-size: 28px;
+  font-family: "Commissioner";
+  line-height: 36px;
+}
+
+.content-office {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 17px;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Commissioner";
+  line-height: 23px;
+}
+
+.office-round {
+  width: 19px;
+  height: 19px;
+  background-color: #c2c2c2;
+  border-radius: 50%;
+}
+
+.content-regime {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Commissioner";
+  line-height: 23px;
+}
+
+.sunday {
+  color: #f75959;
+}

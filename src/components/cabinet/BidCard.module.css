@@ -1,0 +1,28 @@
+.container {
+  width: 552px;
+  height: 84px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 23px 31px rgba(0, 0, 0, 0.08);
+}
+
+.content {
+  margin: 18px 0 19px 16px;
+}
+
+.destination {
+  color: #030303;
+  font-size: 20px;
+  font-family: "Commissioner";
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.bid-status {
+  margin-top: 4px;
+  color: #030303;
+  font-size: 16px;
+  font-family: "Commissioner";
+  font-weight: 400;
+  line-height: 19px;
+}

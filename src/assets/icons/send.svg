@@ -1,0 +1,11 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <g opacity="100%">
+    <rect x="0" y="0" width="48" height="48" fill="rgba(38,38,38,0)" rx="0"></rect>
+    <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 24 24" fill="#858585" x="15" y="15">
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"></path>
+    </svg>
+  </g>
+  <defs></defs>
+</svg>
